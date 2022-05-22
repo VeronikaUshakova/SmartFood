@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="jumbotron py-3">
+        <h1 class="display-4 text-center">{{ 'PRODUCT.Product' | translate }}</h1>
+    </div>
+
+    <div class="d-flex flex-column">
+        <div class="border border-info rounded p-3 mb-5">
+            <h2 class="fs-1 text-center">{{ 'PRODUCT.ProductRegister' | translate }}</h2>
+            <app-product-form></app-product-form>
+        </div>
+        <button type="button" class="btn btn-outline-info mb-5" (click)="exportexcel()">{{ 'ExportExcel' | translate }}</button>
+        <div class="border border-info rounded p-3 mb-5">
+            <h2 class="fs-1 text-center">{{ 'PRODUCT.ListOfProduct' | translate }}</h2>
+            <table class="table" id="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>{{ 'PRODUCT.NameProduct' | translate }}</th>
+                        <th>{{ 'PRODUCT.PriceProduct' | translate }}</th>
+                        <th>{{ 'PRODUCT.TemperatureProduct' | translate }}</th>
+                        <th>{{ 'PRODUCT.HumidityProduct' | translate }}</th>
+                        <th>{{ 'PRODUCT.WeightProduct' | translate }}</th>
+                        <th>{{ 'PRODUCT.Shipper' | translate }}</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let pd of service.list">
+                        <td (click)="populateForm(pd)">{{pd.name_product}}</td>
+                        <td (click)="populateForm(pd)">{{pd.price_product}}</td>
+                        <td (click)="populateForm(pd)">{{pd.temperature_product}}</td>
+                        <td (click)="populateForm(pd)">{{pd.humidity_product}}</td>
+                        <td (click)="populateForm(pd)">{{pd.weight_product}}</td>
+                        <td (click)="populateForm(pd)">{{pd.id_shipper}}</td>
+                        <td>
+                            <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.id_product)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

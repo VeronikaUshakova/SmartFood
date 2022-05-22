@@ -1,0 +1,46 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id_product" [value]="service.formData.id_product" />
+    <div class="form-group">
+        <label>{{ 'PRODUCT.NameProduct' | translate }}</label>
+        <input class="form-control form-control-lg" placeholder="{{ 'PRODUCT.NameProduct' | translate }}" 
+        name="Name_product" #Name_product="ngModel" [(ngModel)]="service.formData.name_product"
+        required [class.invalid]="Name_product.invalid && Name_product.touched">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'PRODUCT.PriceProduct' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'PRODUCT.PriceProduct' | translate }}" 
+            name="Price_product" #Price_product="ngModel" [(ngModel)]="service.formData.price_product"
+            required [class.invalid]="Price_product.invalid && Price_product.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'PRODUCT.TemperatureProduct' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'PRODUCT.TemperatureProduct' | translate }}" 
+            name="Temperature_product" #Temperature_product="ngModel" [(ngModel)]="service.formData.temperature_product"
+            required [class.invalid]="Temperature_product.invalid && Temperature_product.touched">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'PRODUCT.HumidityProduct' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'PRODUCT.HumidityProduct' | translate }}" 
+            name="Humidity_product" #Humidity_product="ngModel" [(ngModel)]="service.formData.humidity_product"
+            required [class.invalid]="Humidity_product.invalid && Humidity_product.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'PRODUCT.WeightProduct' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'PRODUCT.WeightProduct' | translate }}" 
+            name="Weight_product" #Weight_product="ngModel" [(ngModel)]="service.formData.weight_product"
+            required [class.invalid]="Weight_product.invalid && Weight_product.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <label>{{ 'PRODUCT.Shipper' | translate }}</label>
+        <select class="form-control" name="idShipper" #idShipper="ngModel" [(ngModel)]="service.formData.id_shipper">
+            <option *ngFor="let item of service.listShipper" value="{{item!.id_shipper}}">{{item.name_shipper}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>

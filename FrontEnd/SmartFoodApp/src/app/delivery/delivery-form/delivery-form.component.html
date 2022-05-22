@@ -1,0 +1,26 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id_delivery" [value]="service.formData.id_delivery" />
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'DELIVERY.Shipper' | translate }}</label>
+            <select class="form-control" name="idShipper" #idShipper="ngModel" [(ngModel)]="service.formData.id_shipper">
+                <option *ngFor="let item of service.listShipper" value="{{item!.id_shipper}}">{{item.name_shipper}}</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'DELIVERY.FoodEstablishment' | translate }}</label>
+            <select class="form-control" name="idFoodEstablishment" #idFoodEstablishment="ngModel" [(ngModel)]="service.formData.id_foodEstablishment">
+                <option *ngFor="let item of service.listFoodEstablishment" value="{{item!.id_foodEstablishment}}">{{item.name_foodEstablishment}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>{{ 'DELIVERY.DateDelivery' | translate }}</label>
+        <input type="datetime-local" class="form-control form-control-lg" placeholder="{{ 'DELIVERY.DateDelivery' | translate }}" 
+        name="DateTime_delivery" #DateTime_delivery="ngModel" [(ngModel)]="service.formData.dateTime_delivery"
+        required [class.invalid]="DateTime_delivery.invalid && DateTime_delivery.touched">
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>

@@ -1,0 +1,40 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id_history" [value]="service.formData.id_history" />
+    <div class="form-group">
+        <label>{{ 'HISTORYBOX.Box' | translate }}</label>
+        <select class="form-control" name="idBox" #idBox="ngModel" [(ngModel)]="service.formData.id_box">
+            <option *ngFor="let item of service.listBox" value="{{item!.id_box}}">{{item.id_box}}</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'HISTORYBOX.WeightProduct' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'HISTORYBOX.WeightProduct' | translate }}" 
+            name="Weight_box" #Weight_box="ngModel" [(ngModel)]="service.formData.weight_box"
+            required [class.invalid]="Weight_box.invalid && Weight_box.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'HISTORYBOX.TemperatureBox' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'HISTORYBOX.TemperatureBox' | translate }}" 
+            name="Temperature_box" #Temperature_box="ngModel" [(ngModel)]="service.formData.temperature_box"
+            required [class.invalid]="Temperature_box.invalid && Temperature_box.touched">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'HISTORYBOX.HumidityBox' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'HISTORYBOX.HumidityBox' | translate }}" 
+            name="Humidity_box" #Humidity_box="ngModel" [(ngModel)]="service.formData.humidity_box"
+            required [class.invalid]="Humidity_box.invalid && Humidity_box.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'HISTORYBOX.DateEntryBox' | translate }}</label>
+            <input type="datetime-local" class="form-control form-control-lg" placeholder="{{ 'HISTORYBOX.DateEntryBox' | translate }}" 
+            name="DateTime_history" #DateTime_history="ngModel" [(ngModel)]="service.formData.dateTime_history"
+            required [class.invalid]="DateTime_history.invalid && DateTime_history.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>

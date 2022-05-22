@@ -1,0 +1,22 @@
+<ul class="nav nav-tabs mb-5" style="background-color:rgb(103, 195, 207)">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" role="button" aria-expanded="false">{{ 'MENU.ManageTablesData' | translate }}</a>
+    <ul class="dropdown-menu" style="background-color:rgb(103, 195, 207)"> 
+      <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/shippers">{{ 'MENU.Shipper' | translate }}</a></li>
+      <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/foodEstablishments">{{ 'MENU.FoodEstablishment' | translate }}</a></li>
+      <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/products">{{ 'MENU.Product' | translate }}</a></li>
+      <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/boxes">{{ 'MENU.Box' | translate }}</a></li>
+      <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/deliveries">{{ 'MENU.Delivery' | translate }}</a></li>
+      <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/historyBoxes">{{ 'MENU.HistoryBox' | translate }}</a></li>
+    </ul>
+  </li>
+  <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/backUp">{{ 'MENU.BackUp' | translate }}</a></li>
+  <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/businessLogic">{{ 'MENU.BusinessLogic' | translate }}</a></li>
+  <li><a class="nav-link text-light" routerLinkActive="text-dark" routerLink="/diagrams">{{ 'MENU.Diagrams' | translate }}</a></li>
+  <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" role="button" aria-expanded="false">{{ 'MENU.Language' | translate }}</a>
+  <ul class="dropdown-menu" style="background-color:rgb(103, 195, 207)"> 
+    <li><a class="nav-link text-light" (click)="translate.use('ua')">{{ 'BUTTON.LANG.UA' | translate }}</a></li>
+    <li><a class="nav-link text-light" (click)="translate.use('en')">{{ 'BUTTON.LANG.EN' | translate }}</a></li>
+  </ul>
+</ul>
+<router-outlet></router-outlet>

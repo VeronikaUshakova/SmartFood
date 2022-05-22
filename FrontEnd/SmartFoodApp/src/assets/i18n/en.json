@@ -1,0 +1,101 @@
+{
+    "BUTTON": {
+      "LANG": {
+        "UA": "Ukrainian",
+        "EN": "English"
+        }
+    },
+    "MENU": {
+        "ManageTablesData":"Manage tables data",
+        "Shipper":"Shipper",
+        "FoodEstablishment":"Food Establishment",
+        "Product":"Product",
+        "Box":"Box",
+        "Delivery":"Delivery",
+        "HistoryBox":"History Box",
+        "BackUp":"Back up",
+        "BusinessLogic":"Business logic",
+        "Diagrams":"Diagrams",
+        "Language":"Language"
+    },
+    "Submit":"Submit",
+    "ExportExcel":"Export Excel",
+    "SHIPPER":{
+        "Shipper":"Shipper",
+        "ShipperRegister":"Shipper register",
+        "ListOfShipper":"List of shipper",
+        "NameShipper":"Name shipper",
+        "AddressShipper":"Address shipper",
+        "MobileShipper":"Mobile shipper",
+        "LoginShipper":"Login shipper",
+        "PasswordShipper":"Password shipper"
+    },
+    "FOODESTABLISHMENT":{
+        "FoodEstablishment":"FoodEstablishment",
+        "FoodEstablishmentRegister":"FoodEstablishment register",
+        "ListOfFoodEstablishment":"List of FoodEstablishment",
+        "NameFoodEstablishment":"Name FoodEstablishment",
+        "AddressFoodEstablishment":"Address FoodEstablishment",
+        "MobileFoodEstablishment":"Mobile FoodEstablishment",
+        "LoginFoodEstablishment":"Login FoodEstablishment",
+        "PasswordFoodEstablishment":"Password FoodEstablishment"
+    },
+    "PRODUCT":{
+        "Product":"Product",
+        "ProductRegister":"Product register",
+        "ListOfProduct":"List of product",
+        "NameProduct":"Name product",
+        "PriceProduct":"Price product",
+        "TemperatureProduct":"Temperature product",
+        "HumidityProduct":"Humidity product",
+        "WeightProduct":"Weight product",
+        "Shipper":"Shipper"
+    },
+    "BACKUP":{
+        "BackUp":"Backup",
+        "CreateBackUp":"Create backup",
+        "ApplyBackUp":"Apply backup",
+        "ChooseFile":"Choose file",
+        "InputName":"Input file name"
+    },
+    "BUSINESSLOGIC":{
+        "Shipper":"Shipper",
+        "PercentWeek":"Percentage of the shipper's readiness for the next week",
+        "PercentMonth":"Percentage of the shipper's readiness for the next month",
+        "PercentCorrect":"Percentage of correct storage by the product food establishment",
+        "FoodEstablishment":"Food Establishment",
+        "Product":"Product"
+    },
+    "BOX":{
+        "Box":"Box",
+        "BoxRegister":"Box register",
+        "ListOfBox":"List of box",
+        "Product":"Product",
+        "InitialWeightProduct":"Initial weight product",
+        "Delivery":"Delivery",
+        "DateEntryBox":"Date entry box",
+        "ShelflifeBox":"Shelflife box"
+    },
+    "DELIVERY":{
+        "Delivery":"Delivery",
+        "Shipper":"Shipper",
+        "FoodEstablishment":"FoodEstablishment",
+        "DateDelivery":"Date delivery",
+        "DeliveryRegister":"Box register",
+        "ListOfDelivery":"List of box"
+    },
+    "HISTORYBOX":{
+        "HistoryBoxRegister":"History box register",
+        "ListOfHistoryBox":"List of history box",
+        "Box":"Box",
+        "HistoryBox":"History box",
+        "DateEntryBox":"Date entry box",
+        "TemperatureBox":"Temperature box",
+        "HumidityBox":"Humidity box",
+        "WeightProduct":"Weight product"
+    },
+    "DIAGRAMS":{
+        "Product":"The ratio of shippers and food establishments",
+        "ShipperFoodEstablishment":"The ratio of products"
+    }
+}

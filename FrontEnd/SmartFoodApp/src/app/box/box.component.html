@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="jumbotron py-3">
+        <h1 class="display-4 text-center">{{ 'BOX.Box' | translate }}</h1>
+    </div>
+
+    <div class="d-flex flex-column">
+        <div class="border border-info rounded p-3 mb-5">
+            <h2 class="fs-1 text-center">{{ 'BOX.BoxRegister' | translate }}</h2>
+            <app-box-form></app-box-form>
+        </div>
+        <div class="border border-info rounded p-3 mb-5">
+            <h2 class="fs-1 text-center">{{ 'BOX.ListOfBox' | translate }}</h2>
+            <table class="table" id="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>{{ 'BOX.Product' | translate }}</th>
+                        <th>{{ 'BOX.InitialWeightProduct' | translate }}</th>
+                        <th>{{ 'BOX.Delivery' | translate }}</th>
+                        <th>{{ 'BOX.DateEntryBox' | translate }}</th>
+                        <th>{{ 'BOX.ShelflifeBox' | translate }}</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let pd of service.list">
+                        <td (click)="populateForm(pd)">{{pd.id_box}}</td>
+                        <td (click)="populateForm(pd)">{{pd.initial_weight_product}}</td>
+                        <td (click)="populateForm(pd)">{{pd.id_delivery}}</td>
+                        <td (click)="populateForm(pd)">{{pd.dateEntry_box | date:'short'}}</td>
+                        <td (click)="populateForm(pd)">{{pd.shelfLife_box}}</td>
+                        <td>
+                            <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.id_box)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

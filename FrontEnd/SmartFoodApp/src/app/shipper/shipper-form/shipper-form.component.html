@@ -1,0 +1,41 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id_shipper" [value]="service.formData.id_shipper" />
+    <div class="form-group">
+        <label>{{ 'SHIPPER.NameShipper' | translate }}</label>
+        <input class="form-control form-control-lg" placeholder="{{ 'SHIPPER.NameShipper' | translate }}" 
+        name="Name_shipper" #Name_shipper="ngModel" [(ngModel)]="service.formData.name_shipper"
+        required [class.invalid]="Name_shipper.invalid && Name_shipper.touched">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'SHIPPER.AddressShipper' | translate }}</label>
+            <input class="form-control form-control-lg" placeholder="{{ 'SHIPPER.AddressShipper' | translate }}" 
+            name="Address_shipper" #Address_shipper="ngModel" [(ngModel)]="service.formData.address_shipper"
+            required [class.invalid]="Address_shipper.invalid && Address_shipper.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'SHIPPER.MobileShipper' | translate }}</label>
+            <input type="tel" class="form-control form-control-lg" placeholder="{{ 'SHIPPER.MobileShipper' | translate }}" 
+            name="Mobile_shipper" #Mobile_shipper="ngModel" [(ngModel)]="service.formData.mobile_shipper"
+            required [class.invalid]="Mobile_shipper.invalid && Mobile_shipper.touched" 
+            pattern="^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'SHIPPER.LoginShipper' | translate }}</label>
+            <input class="form-control form-control-lg" placeholder="{{ 'SHIPPER.LoginShipper' | translate }}" 
+            name="Login_shipper" #Login_shipper="ngModel" [(ngModel)]="service.formData.login_shipper"
+            required [class.invalid]="Login_shipper.invalid && Login_shipper.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'SHIPPER.PasswordShipper' | translate }}</label>
+            <input type="password" class="form-control form-control-lg" placeholder="{{ 'SHIPPER.PasswordShipper' | translate }}" 
+            name="Password_shipper" #Password_shipper="ngModel" [(ngModel)]="service.formData.password_shipper"
+            required [class.invalid]="Password_shipper.invalid && Password_shipper.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>

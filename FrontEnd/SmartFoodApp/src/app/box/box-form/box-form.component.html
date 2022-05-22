@@ -1,0 +1,40 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id_product" [value]="service.formData.id_product" />
+    <div class="form-group">
+        <label>{{ 'BOX.Product' | translate }}</label>
+        <select class="form-control" name="idProduct" #idShipper="ngModel" [(ngModel)]="service.formData.id_product">
+            <option *ngFor="let item of service.listProduct" value="{{item!.id_product}}">{{item.name_product}}</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'BOX.InitialWeightProduct' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'BOX.InitialWeightProduct' | translate }}" 
+            name="Initial_weight_product" #Initial_weight_product="ngModel" [(ngModel)]="service.formData.initial_weight_product"
+            required [class.invalid]="Initial_weight_product.invalid && Initial_weight_product.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'BOX.Delivery' | translate }}</label>
+            <select class="form-control" name="idDelivery" #idDelivery="ngModel" [(ngModel)]="service.formData.id_delivery">
+                <option *ngFor="let item of service.listDelivery" value="{{item!.id_delivery}}">{{item.id_delivery}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'BOX.DateEntryBox' | translate }}</label>
+            <input type="datetime-local" class="form-control form-control-lg" placeholder="{{ 'BOX.DateEntryBox' | translate }}" 
+            name="DateEntry_box" #DateEntry_box="ngModel" [(ngModel)]="service.formData.dateEntry_box"
+            required [class.invalid]="DateEntry_box.invalid && DateEntry_box.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'BOX.ShelflifeBox' | translate }}</label>
+            <input type="number" class="form-control form-control-lg" placeholder="{{ 'BOX.ShelflifeBox' | translate }}" 
+            name="Shelflife_box" #Shelflife_box="ngModel" [(ngModel)]="service.formData.shelfLife_box"
+            required [class.invalid]="Shelflife_box.invalid && Shelflife_box.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>

@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.WEB/SmartFood.WEB.csproj": {}
+  },
+  "projects": {
+    "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.BLL/SmartFood.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.BLL/SmartFood.BLL.csproj",
+        "projectName": "SmartFood.BLL",
+        "projectPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.BLL/SmartFood.BLL.csproj",
+        "packagesPath": "/Users/veronikaushakova/.nuget/packages/",
+        "outputPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/veronikaushakova/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.DAL/SmartFood.DAL.csproj": {
+                "projectPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.DAL/SmartFood.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.DAL/SmartFood.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.DAL/SmartFood.DAL.csproj",
+        "projectName": "SmartFood.DAL",
+        "projectPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.DAL/SmartFood.DAL.csproj",
+        "packagesPath": "/Users/veronikaushakova/.nuget/packages/",
+        "outputPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/veronikaushakova/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.WEB/SmartFood.WEB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.WEB/SmartFood.WEB.csproj",
+        "projectName": "SmartFood.WEB",
+        "projectPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.WEB/SmartFood.WEB.csproj",
+        "packagesPath": "/Users/veronikaushakova/.nuget/packages/",
+        "outputPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.WEB/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/veronikaushakova/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.BLL/SmartFood.BLL.csproj": {
+                "projectPath": "/Users/veronikaushakova/Downloads/SmartFood/BackEnd/SmartFood/SmartFood.BLL/SmartFood.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

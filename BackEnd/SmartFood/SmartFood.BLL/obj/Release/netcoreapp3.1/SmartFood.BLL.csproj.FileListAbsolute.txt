@@ -1,0 +1,42 @@
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.deps.json
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.dll
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.pdb
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.DAL.dll
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.DAL.pdb
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csprojAssemblyReference.cache
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.AssemblyInfoInputs.cache
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.AssemblyInfo.cs
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csproj.CopyComplete
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.dll
+C:\Users\Veronika\Desktop\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.pdb
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.deps.json
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.dll
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.pdb
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.DAL.dll
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.DAL.pdb
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csprojAssemblyReference.cache
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.AssemblyInfoInputs.cache
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.AssemblyInfo.cs
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csproj.CopyComplete
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.dll
+C:\Users\Veronika\Desktop\3 курс\SmartFood\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.pdb
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.deps.json
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.dll
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.BLL.pdb
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.DAL.dll
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\bin\Release\netcoreapp3.1\SmartFood.DAL.pdb
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csprojAssemblyReference.cache
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.AssemblyInfoInputs.cache
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.AssemblyInfo.cs
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.csproj.CopyComplete
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.dll
+C:\Users\Veronika\Desktop\WORKING CURSACH\SmartFood\SmartFood\SmartFood.BLL\obj\Release\netcoreapp3.1\SmartFood.BLL.pdb

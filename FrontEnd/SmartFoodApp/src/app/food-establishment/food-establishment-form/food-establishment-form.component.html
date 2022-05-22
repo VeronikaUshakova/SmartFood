@@ -1,0 +1,41 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id_foodEstablishment" [value]="service.formData.id_foodEstablishment" />
+    <div class="form-group">
+        <label>{{ 'FOODESTABLISHMENT.NameFoodEstablishment' | translate }}</label>
+        <input class="form-control form-control-lg" placeholder="{{ 'FOODESTABLISHMENT.NameFoodEstablishment' | translate }}" 
+        name="Name_foodEstablishment" #Name_foodEstablishment="ngModel" [(ngModel)]="service.formData.name_foodEstablishment"
+        required [class.invalid]="Name_foodEstablishment.invalid && Name_foodEstablishment.touched">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'FOODESTABLISHMENT.AddressFoodEstablishment' | translate }}</label>
+            <input class="form-control form-control-lg" placeholder="{{ 'FOODESTABLISHMENT.AddressFoodEstablishment' | translate }}" 
+            name="Address_foodEstablishment" #Address_foodEstablishment="ngModel" [(ngModel)]="service.formData.address_foodEstablishment"
+            required [class.invalid]="Address_foodEstablishment.invalid && Address_foodEstablishment.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'FOODESTABLISHMENT.MobileFoodEstablishment' | translate }}</label>
+            <input type="tel" class="form-control form-control-lg" placeholder="{{ 'FOODESTABLISHMENT.MobileFoodEstablishment' | translate }}" 
+            name="Mobile_foodEstablishment" #Mobile_foodEstablishment="ngModel" [(ngModel)]="service.formData.mobile_foodEstablishment"
+            required [class.invalid]="Mobile_foodEstablishment.invalid && Mobile_foodEstablishment.touched" 
+            pattern="^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>{{ 'Login.MobileFoodEstablishment' | translate }}</label>
+            <input class="form-control form-control-lg" placeholder="{{ 'FOODESTABLISHMENT.LoginFoodEstablishment' | translate }}" 
+            name="Login_foodEstablishment" #Login_foodEstablishment="ngModel" [(ngModel)]="service.formData.login_foodEstablishment"
+            required [class.invalid]="Login_foodEstablishment.invalid && Login_foodEstablishment.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>{{ 'FOODESTABLISHMENT.PasswordFoodEstablishment' | translate }}</label>
+            <input type="password" class="form-control form-control-lg" placeholder="{{ 'FOODESTABLISHMENT.PasswordFoodEstablishment' | translate }}" 
+            name="Password_foodEstablishment" #Password_foodEstablishment="ngModel" [(ngModel)]="service.formData.password_foodEstablishment"
+            required [class.invalid]="Password_foodEstablishment.invalid && Password_foodEstablishment.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>

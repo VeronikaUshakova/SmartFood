@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUt40mJ9Qs0CrT9ItNw6WCQAAAAACAAAAAAAQZgAAAAEAACAAAAA7HbMLkkLH2nnKCUPo+1IcCULUakYLEFoNaWfrU12IxAAAAAAOgAAAAAIAACAAAAA6gt6ZH0xCHv8PMqYiwVYqPSCZG8BCI+dBxOeRZKmpqyAAAACdqFFdIj4ezm+4MB5i6Eh33cMnJSnyEXiSB+mF6f5bO0AAAAAgQsUJvkpVNT1mrQqmCaWBTIh6cjEm3xWS90fZYHp15YMwvSlVLV6nOunaAzXnCmk1ImbISamZ17Rb2Q9DBlJt</EncryptedPassword>
+    <_PublishTargetUrl>ftp://files.000webhost.com/public_html/SMARTFOOD</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/05/2021 22:37:01</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/06/2021 00:00:16</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>11/16/2019 11:17:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>11/16/2019 11:25:44</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>11/15/2019 08:38:02</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/15/2019 08:38:50</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:28</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>04/29/2019 22:04:14</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>11/27/2018 23:10:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="SmartFood.BLL.dll">
+      <publishTime>04/20/2021 20:53:54</publishTime>
+    </File>
+    <File Include="SmartFood.BLL.pdb">
+      <publishTime>04/20/2021 20:53:54</publishTime>
+    </File>
+    <File Include="SmartFood.DAL.dll">
+      <publishTime>04/20/2021 20:32:10</publishTime>
+    </File>
+    <File Include="SmartFood.DAL.pdb">
+      <publishTime>04/20/2021 20:32:10</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.deps.json">
+      <publishTime>04/20/2021 20:32:17</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.dll">
+      <publishTime>04/20/2021 20:32:13</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.exe">
+      <publishTime>04/20/2021 20:32:13</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.pdb">
+      <publishTime>04/20/2021 20:32:13</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.runtimeconfig.json">
+      <publishTime>04/20/2021 20:32:17</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.Views.dll">
+      <publishTime>04/20/2021 20:32:16</publishTime>
+    </File>
+    <File Include="SmartFood.WEB.Views.pdb">
+      <publishTime>04/20/2021 20:32:16</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 13:29:38</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>04/20/2021 20:32:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

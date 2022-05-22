@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{C4C555A4-92B8-47D7-A4F9-0FED22E910A3}|Default">
+  <MonoDevelop.Ide.ItemProperties.SmartFood.WEB PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartFood.DAL/Entities/Box.cs">
+    <Files>
+      <File FileName="SmartFood.WEB/Controllers/AdminController.cs" Line="71" Column="18" />
+      <File FileName="SmartFood.WEB/Controllers/BoxController.cs" />
+      <File FileName="SmartFood.WEB/Program.cs" />
+      <File FileName="SmartFood.WEB/Startup.cs" Line="35" Column="13" />
+      <File FileName="SmartFood.BLL/Services/BoxService.cs" />
+      <File FileName="SmartFood.BLL/Services/FoodEstablishmentService.cs" />
+      <File FileName="SmartFood.WEB/Controllers/ShipperController.cs" />
+      <File FileName="SmartFood.BLL/Services/ShipperService.cs" />
+      <File FileName="SmartFood.WEB/appsettings.json" />
+      <File FileName="SmartFood.DAL/Entities/Admin.cs" Line="1" Column="1" />
+      <File FileName="SmartFood.DAL/Entities/Delivery.cs" Line="20" Column="1" />
+      <File FileName="SmartFood.DAL/Migrations/20210408003647_InitialDbCreate.cs" Line="24" Column="51" />
+      <File FileName="SmartFood.DAL/Entities/Box.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SmartFood" expanded="True">
+            <Node name="SmartFood.DAL" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="Box.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

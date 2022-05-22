@@ -1,0 +1,101 @@
+{
+    "BUTTON": {
+      "LANG": {
+        "UA": "Українська",
+        "EN": "Английська"
+        }
+    },
+    "MENU": {
+        "ManageTablesData":"Адміністрування даними",
+        "Shipper":"Постачальники",
+        "FoodEstablishment":"Заклади харчування",
+        "Product":"Продукти",
+        "Box":"Ящики",
+        "Delivery":"Поставки",
+        "HistoryBox":"Історії ящиків",
+        "BackUp":"Резервне копіювання",
+        "BusinessLogic":"Бізнес логика",
+        "Diagrams":"Діаграми",
+        "Language":"Мова"
+    },
+    "Submit":"Підтвердити",
+    "ExportExcel":"Експорт у Excel",
+    "SHIPPER":{
+        "Shipper":"Постачальник",
+        "ShipperRegister":"Реєстрація постачальника",
+        "ListOfShipper":"Список постачальників",
+        "NameShipper":"Назва постачальника",
+        "AddressShipper":"Адреса постачальника",
+        "MobileShipper":"Телефон постачальника",
+        "LoginShipper":"Логін постачальника",
+        "PasswordShipper":"Пароль постачальника"
+    },
+    "FOODESTABLISHMENT":{
+        "FoodEstablishment":"Заклад харчування",
+        "FoodEstablishmentRegister":"Реєстрація закладу харчування",
+        "ListOfFoodEstablishment":"Список закладів харчування",
+        "NameFoodEstablishment":"Назва закладу харчування",
+        "AddressFoodEstablishment":"Адреса закладу харчування",
+        "MobileFoodEstablishment":"Телефон закладу харчування",
+        "LoginFoodEstablishment":"Логін закладу харчування",
+        "PasswordFoodEstablishment":"Пароль закладу харчування"
+    },
+    "PRODUCT":{
+        "Product":"Продукт",
+        "ProductRegister":"Реєстрація продукту",
+        "ListOfProduct":"Список продуктів",
+        "NameProduct":"Назва продукту",
+        "PriceProduct":"Ціна продукту",
+        "TemperatureProduct":"Температура продукту",
+        "HumidityProduct":"Вологість продукту",
+        "WeightProduct":"Вага продукту",
+        "Shipper":"Постачальник"
+    },
+    "BACKUP":{
+        "BackUp":"Резервна копія",
+        "CreateBackUp":"Створити резервну копію",
+        "ApplyBackUp":"Застосувати резервну копію",
+        "ChooseFile":"Обрати файл",
+        "InputName":"Введіть назву файлу"
+    },
+    "BUSINESSLOGIC":{
+        "Shipper":"Постачальник",
+        "PercentWeek":"Відсоток готовності постачальника до наступного тиждня",
+        "PercentMonth":"Відсоток готовності постачальника до наступного місяця",
+        "PercentCorrect":"Відсоток правильного зберігання продукта закладом харчування",
+        "FoodEstablishment":"Заклад харчування",
+        "Product":"Продукт"
+    },
+    "BOX":{
+        "Box":"Ящик",
+        "BoxRegister":"Реєстрація ящику",
+        "ListOfBox":"Список ящиків",
+        "Product":"Продукт",
+        "InitialWeightProduct":"Початкова вага продукту в ящику",
+        "Delivery":"Поставка",
+        "DateEntryBox":"Дата потрапляння продукту до ящику",
+        "ShelflifeBox":"Термін придастності"
+    },
+    "DELIVERY":{
+        "Delivery":"Поставка",
+        "Shipper":"Постачальник",
+        "FoodEstablishment":"Заклад харчування",
+        "DateDelivery":"Дата поставки",
+        "DeliveryRegister":"Реєстрація поставки",
+        "ListOfDelivery":"Список поставок"
+    },
+    "HISTORYBOX":{
+        "HistoryBoxRegister":"Реєстрація історії ящика",
+        "ListOfHistoryBox":"Список історій ящика",
+        "Box":"Ящик",
+        "HistoryBox":"Історія ящика",
+        "DateEntryBox":"Дата створення історії ящика",
+        "TemperatureBox":"Температура ящика",
+        "HumidityBox":"Вологість ящика",
+        "WeightProduct":"Вага продукта в ящику"
+    },
+    "DIAGRAMS":{
+        "Product":"Співвідношення постачальників і закладів харчування",
+        "ShipperFoodEstablishment":"Співвідношення продуктів"
+    }
+}

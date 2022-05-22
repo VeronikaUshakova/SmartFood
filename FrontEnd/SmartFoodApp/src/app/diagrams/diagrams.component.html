@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-sm-6">
+            <h5 class="m-auto">{{ 'DIAGRAMS.ShipperFoodEstablishment' | translate }}</h5>
+            <ejs-accumulationchart [legendSettings]='legend'>
+                <e-accumulation-series-collection>
+                    <e-accumulation-series [dataSource]='data' xName='name' yName='value' [dataLabel]='chartLabel' type='Pie'>
+                    </e-accumulation-series>
+                </e-accumulation-series-collection>
+            </ejs-accumulationchart>
+        </div>
+        <div class="col-sm-6">
+            <h5 class="m-auto">{{ 'DIAGRAMS.Product' | translate }}</h5>
+            <ejs-accumulationchart [legendSettings]='legend'>
+                <e-accumulation-series-collection>
+                    <e-accumulation-series [dataSource]='dataProduct' xName='name' yName='value' [dataLabel]='chartLabel' type='Pie'>
+                    </e-accumulation-series>
+                </e-accumulation-series-collection>
+            </ejs-accumulationchart>
+        </div>
+    </div>
+</div>

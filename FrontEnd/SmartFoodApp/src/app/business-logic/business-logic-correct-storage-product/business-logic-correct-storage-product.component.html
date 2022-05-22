@@ -1,0 +1,28 @@
+<h4 class="text-center">{{ 'BUSINESSLOGIC.PercentCorrect' | translate }}</h4>
+<br>
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <div class="form-row">
+        <div class="form-group w-100">
+            <label>{{ 'BUSINESSLOGIC.FoodEstablishment' | translate }}</label>
+            <select class="form-control" name="idFoodEstablishment" id="foodEstablishment" #idFoodEstablishment="ngModel" [(ngModel)]="service.formUseProduct.id_foodEstablishment">
+                <option *ngFor="let item of service.listFoodEstablishment" value="{{item!.id_foodEstablishment}}">{{item.name_foodEstablishment}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group w-100">
+            <label>{{ 'BUSINESSLOGIC.Product' | translate }}</label>
+            <select class="form-control" name="idProduct" id="product" #idProduct="ngModel" [(ngModel)]="service.formUseProduct.id_product">
+                <option *ngFor="let item of service.listProduct" value="{{item!.id_product}}">{{item.name_product}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>
+<div align="center" style="margin-top:10%;">
+    <circle-progress [percent]="percentValue"  [space]="-10" [radius]="75" [outerStrokeWidth]="10"
+      [innerStrokeWidth]="10" [outerStrokeColor]="'#00fdff'" [innerStrokeColor]="'#e7e8ea'" [animation]="true"
+      [animationDuration]="1000"></circle-progress>
+  </div>

@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="jumbotron py-3">
+        <h1 class="display-4 text-center">{{ 'HISTORYBOX.HistoryBox' | translate }}</h1>
+    </div>
+
+    <div class="d-flex flex-column">
+        <div class="border border-info rounded p-3 mb-5">
+            <h2 class="fs-1 text-center">{{ 'HISTORYBOX.HistoryBoxRegister' | translate }}</h2>
+            <app-history-box-form></app-history-box-form>
+        </div>
+        <button type="button" class="btn btn-outline-info mb-5" (click)="exportexcel()">{{ 'ExportExcel' | translate }}</button>
+        <div class="border border-info rounded p-3 mb-5">
+            <h2 class="fs-1 text-center">{{ 'HISTORYBOX.ListOfHistoryBox' | translate }}</h2>
+            <table class="table" id="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>{{ 'HISTORYBOX.Box' | translate }}</th>
+                        <th>{{ 'HISTORYBOX.WeightProduct' | translate }}</th>
+                        <th>{{ 'HISTORYBOX.TemperatureBox' | translate }}</th>
+                        <th>{{ 'HISTORYBOX.HumidityBox' | translate }}</th>
+                        <th>{{ 'HISTORYBOX.DateEntryBox' | translate }}</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let pd of service.list">
+                        <td (click)="populateForm(pd)">{{pd.id_box}}</td>
+                        <td (click)="populateForm(pd)">{{pd.weight_box}}</td>
+                        <td (click)="populateForm(pd)">{{pd.temperature_box}}</td>
+                        <td (click)="populateForm(pd)">{{pd.humidity_box}}</td>
+                        <td (click)="populateForm(pd)">{{pd.dateTime_history | date:'short'}}</td>
+                        <td>
+                            <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.id_history)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

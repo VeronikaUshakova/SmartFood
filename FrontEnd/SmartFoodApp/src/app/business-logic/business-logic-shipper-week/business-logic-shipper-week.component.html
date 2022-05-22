@@ -1,0 +1,21 @@
+<h4 class="text-center">{{ 'BUSINESSLOGIC.PercentWeek' | translate }}</h4>
+<br>
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <div class="form-row">
+        <div class="form-group w-100">
+            <label>{{ 'BUSINESSLOGIC.Shipper' | translate }}</label>
+            <select class="form-control" name="idShipper" id="shipper" #idShipper="ngModel" [(ngModel)]="service.formDataWeek.id_shipper">
+                <option *ngFor="let item of service.listShipper" value="{{item!.id_shipper}}">{{item.name_shipper}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">{{ 'Submit' | translate }}</button>
+    </div>
+</form>
+<div align="center" style="margin-top:10%;">
+    <circle-progress [percent]="percentValue"  [space]="-10" [radius]="75" [outerStrokeWidth]="10"
+      [innerStrokeWidth]="10" [outerStrokeColor]="'#942192'" [innerStrokeColor]="'#e7e8ea'" [animation]="true"
+      [animationDuration]="1000">
+    </circle-progress>
+</div>
